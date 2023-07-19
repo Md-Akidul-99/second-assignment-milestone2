@@ -259,3 +259,52 @@
 .game-2 img{
     width: 50px;
 }
+
+
+.footer{
+    background-color: #0B0223;
+    padding: 120px 300px;
+    text-align: center;
+    color: #fff;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 66px;
+}
+.footer-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 20px;
+
+}
+.footer-title span {
+    color: #FF42A5;
+}
+.pages{
+    margin-bottom: 60px;
+}
+.pages a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 30px;
+}
+.icons{
+    margin-bottom: 60px;
+}
+.icons i{
+    font-size: 40px;
+    margin: 0 20px;
+}
+.ruls{
+    margin-bottom: 40px;
+}
+.ruls p{
+    color:rgba(255, 255, 255, 0.60);
+    display: inline-block;
+    margin: 0 20px;
+}
+.footer-finish{
+    color:rgba(255, 255, 255, 0.60);
+}
