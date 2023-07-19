@@ -177,7 +177,7 @@
 .play {
     margin-top: 100px;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
 .play-text {
@@ -198,7 +198,8 @@
     font-weight: 700;
     margin-bottom: 20px;
 }
-.play-title span{
+
+.play-title span {
     color: #F948B2;
 }
 
@@ -208,12 +209,53 @@
     font-size: 18px;
     font-weight: 400;
 }
-.play-img .img1{
+
+.play-img .img1 {
     height: 500px;
 }
-.play-img .img2{
+
+.play-img .img2 {
     height: 300px;
     position: relative;
     bottom: 230px;
     right: 130px
+}
+
+.game-1, .game-2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 150px;
+}
+
+.game-1 div {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 60px;
+    border: 2px solid #fff;
+
+}
+.game-1 div:hover{
+    border: 2px solid #F948B2;
+    color: #F948B2;
+    cursor: pointer;
+}
+.game-1 img{
+    width: 50px;
+}
+.game-2 div {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 60px;
+    border: 2px solid #fff;
+
+}
+.game-2 div:hover{
+    border: 2px solid #F948B2;
+    color: #F948B2;
+    cursor: pointer;
+}
+.game-2 img{
+    width: 50px;
 }
